@@ -13,10 +13,10 @@ export default function Navbar() {
                     <Link to="/category/samsung">samsung</Link>
                 </li>
                 <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-[rgb(45,58,75)] transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
-                    <a href="/category/iphone">iphone</a>
+                    <Link to="/category/iphone">iphone</Link>
                 </li>
                 <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-[rgb(45,58,75)] transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
-                    <a href="/category/xiaomi">xiaomi</a>
+                    <Link to="/category/xiaomi">xiaomi</Link>
                 </li>
                 <li className="mx-[15px] text-[14px] font-normal leading-[20px] uppercase text-[rgb(45,58,75)] transition duration-300 ease-linear hover:text-[rgb(255,225,21)] hover:outline-0 hover:no-underline hover:bg-none">
                     <Link to="/about">About</Link>
