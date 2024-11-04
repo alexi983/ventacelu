@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 export default function HeaderComponent() {
-    const Logo = './ventacelu/phone_store.png';
+    const Logo = '/ventacelu/phone_store.png';
     
     return (
         <div className="container mx-auto max-w-[1370px]">
