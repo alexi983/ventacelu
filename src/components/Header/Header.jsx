@@ -1,5 +1,7 @@
 import Navbar from "../Navbar/Navbar"; 
 import { Link } from 'react-router-dom'; 
+import Logo from './Header/phone_store.png'; 
+
 
 export default function HeaderComponent() {
     const Logo = '/phone_store.png';
