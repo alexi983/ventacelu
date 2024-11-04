@@ -8,7 +8,7 @@ export default function HeaderComponent() {
     return (
         <div className="container mx-auto max-w-[1370px]">
             <div className="flex h-[120px] items-center justify-between">
-                <div><img src={Logo} alt="Logo " /></div>
+                <div><img src={Logo} alt="Logo principal" /></div>
                 <div className="flex items-center">
                     <Navbar />
                     <Link to="/cart" className="ml-4 text-blue-600"></Link> {}
