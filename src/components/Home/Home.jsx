@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 import ItemList from "../ItemList/ItemList";
 
 export default function HomePage() {
-    const imgBanner = './presentacioncelu.jpg';
+    
+    const imgBanner = '/ventacelu/presentacioncelu.jpg'; 
+
     return (
         <div>
             <div
