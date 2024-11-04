@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import ItemList from "../ItemList/ItemList";
-import imgBanner from './Home/presentacioncelu.jpg'; 
-
 
 export default function HomePage() {
     const imgBanner = './presentacioncelu.jpg';
