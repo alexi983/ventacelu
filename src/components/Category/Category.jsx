@@ -1,10 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-
 import { getProductByCategory } from "../../data/asyncMock";
-
 import ItemList from "../ItemList/ItemList.jsx";
-
 import Loading from "../Loading/Loading";
 
 export default function ProductsCategory(){

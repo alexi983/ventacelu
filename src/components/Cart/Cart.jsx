@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCart } from '../CartContext/CartContext';
+import { useCart } from '../CartArgument/CartArgument';
 
 const Cart = () => {
     const { cart, removeItemFromCart, clearCart, updateQuantity } = useCart();
@@ -68,6 +68,7 @@ const Cart = () => {
 };
 
 export default Cart;
+
 
 
 
