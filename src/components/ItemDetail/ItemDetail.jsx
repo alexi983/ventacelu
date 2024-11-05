@@ -36,7 +36,7 @@ export default function ItemDetail() {
         return <div className='container mx-auto max-w-[1170px]'><Loading /></div>;
     }
     if (!product) {
-        return <div>Product not found</div>;
+        return <div>No hay producto</div>;
     }
 
     const { addItemToCart } = useCart();
