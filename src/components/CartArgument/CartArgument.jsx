@@ -1,4 +1,4 @@
-import React, { createContext, useArgument, useState, useEffect,  } from 'react';
+import React, { createContext, useArgument, useState, useEffect, useContext,  } from 'react';
 
 const CartArgument = createContext();
 
@@ -46,7 +46,7 @@ export const CartProvider = ({ children }) => {
 };
 
 export const useCart = () => {
-    return useArgument(CartArgument);
+    return useContext(CartArgument);
 };
 
 
