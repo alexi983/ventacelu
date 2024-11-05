@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getProductById } from '../../data/asyncMock.jsx';
 import Loading from '../Loading/Loading.jsx';
-import { useCart } from '../CartContext/CartContext.jsx'; 
+import { useCart } from '../CartArgument/CartArgument.jsx'; 
 
 export default function ItemDetail() {
     const { productId } = useParams();
